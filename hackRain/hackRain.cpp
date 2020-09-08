@@ -74,7 +74,6 @@ void hackRain::paintEvent(QPaintEvent* event)
         for (int j = 0; j < StrNum; j++) {
             QPen penGreen(QColor(0, 255 - 20 * j, 0));    // ÑÕÉ«½¥Ç³
             m_painter->setPen(penGreen);
-            Rain rain = m_rains[i];
             int x = m_rains[i].x;
             int y = m_rains[i].y - j * CharH;
             m_painter->drawText(x, y, m_rains[i].str.at(j));

@@ -3,7 +3,7 @@
 
 ## 效果图如下
 
-![1](E:\Proj_Vs\Proj_Qt\hackRain\md\1.png)
+![1](./md/1.png)
 
 ## 实现思路
 
